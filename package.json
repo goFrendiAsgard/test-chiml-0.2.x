@@ -1,0 +1,14 @@
+{
+  "name": "test-chiml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "delay.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chiml": "^0.2.2"
+  }
+}

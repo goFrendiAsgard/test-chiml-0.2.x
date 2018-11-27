@@ -1,0 +1,16 @@
+bootstrap: run
+component:
+
+    run:
+        perform: concurrent
+        parts:
+            - <delay10Seconds>
+            - <delay10Seconds>
+            - <delay10Seconds>
+            - <delay10Seconds>
+            - <delay10Seconds>
+            - <delay10Seconds>
+
+    delay10Seconds:
+        perform: wrapCommand
+        parts: node delay10Seconds.js

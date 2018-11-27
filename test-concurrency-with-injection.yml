@@ -1,0 +1,13 @@
+bootstrap: run
+injection: ./injection.js
+component:
+
+    run:
+        perform: concurrent
+        parts:
+            - <delay10Seconds>
+            - <delay10Seconds>
+            - <delay10Seconds>
+            - <delay10Seconds>
+            - <delay10Seconds>
+            - <delay10Seconds>
